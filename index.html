@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Title of the document</title>
+	<link rel="stylesheet" href="D:/TUAN/Other/baitap/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="D:/TUAN/Other/baitap/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="D:/TUAN/Other/DemoSublime/style.css">
+</head>
+
+<body>
+	<header>
+		<h1>WELCOME TO ME!</h1>
+	</header>
+	<div class ="owl-carousel owl-theme">
+		<div class = "slider-item">
+			<img src="D:/TUAN/Other/baitap/images/slider_1.png" alt ="slicer1">
+		</div>
+		<div class = "slider-item">
+			<img src="D:/TUAN/Other/baitap/images/slider_2.png" alt ="slicer2">
+		</div>
+	</div>
+	<script src="D:/TUAN/Other/baitap/js/owl.carousel.js"></script>
+	<script src="D:/TUAN/Other/baitap/js/owl.carousel.min.js"></script>	
+	<script>
+		$(document).ready(function(){
+		$('.owl-carousel').owlCarousel({
+			    loop:true,
+			    margin:10,
+			    nav:true,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:1
+			        },
+			        1000:{
+			            items:1
+			        }
+			    }
+			})
+	</script>
+</body>
+	
+
+</html>
